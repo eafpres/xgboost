@@ -5,3 +5,5 @@ xgboost\.model
 .Rproj.user
 
 xgboost\.Rproj
+
+\.RData

@@ -16,7 +16,7 @@
   data$status <- NULL
   data <- as.matrix(data[, 2:ncol(data)])
   scales <- numeric()
-  scale_factors <- c(0, 1)
+  scale_factors <- c(-1, 1)
   for (i in 1:ncol(data)) {
     scales[i] <- max(data[, i]) - min(data[, i])
     data[, i] <- 
